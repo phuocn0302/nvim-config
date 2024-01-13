@@ -4,6 +4,7 @@ vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
 vim.o.numberwidth = 4
 vim.o.number = true
+vim.o.relativenumber = true
 
 --vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 --vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
