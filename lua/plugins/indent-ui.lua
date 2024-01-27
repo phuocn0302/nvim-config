@@ -2,7 +2,7 @@ return {
   { -- Ident guides
     "lukas-reineke/indent-blankline.nvim",
     main = "ibl",
-    opts = {},
+    event = "VeryLazy",
     config = function()
       require("ibl").setup({
         indent = {
@@ -32,6 +32,7 @@ return {
   { -- Highlight and animate ident
     "echasnovski/mini.indentscope",
     version = false,
+    event = "VeryLazy",
     config = function()
       local indentscope = require("mini.indentscope")
       indentscope.setup({

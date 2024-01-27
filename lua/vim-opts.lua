@@ -5,11 +5,13 @@ vim.o.shiftwidth = 2
 vim.o.numberwidth = 4
 vim.o.number = true
 vim.o.relativenumber = true
+vim.o.cursorline= true
 
 --vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 --vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
 --vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 --vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
+vim.keymap.set("v", "<c-c>", '"+y')
 
 vim.cmd(":command WQ wq")
 vim.cmd("command Wq wq")
