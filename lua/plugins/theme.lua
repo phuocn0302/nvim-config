@@ -6,5 +6,14 @@ return {
   config = function()
     require("pywal").setup()
     vim.cmd.colorscheme = "pywal"
+
+    local lualine = require("lualine")
+
+    lualine.setup({
+      options = {
+        theme = "pywal",
+      },
+    })
+
   end,
 }
