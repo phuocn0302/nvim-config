@@ -6,6 +6,8 @@ vim.o.numberwidth = 4
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.cursorline= true
+vim.o.scrolloff = 10
+vim.o.sidescrolloff = 10
 
 --vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 --vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
