@@ -53,6 +53,12 @@ return {
     "danilamihailov/beacon.nvim",
   },
 
+  -- A fraction of neovide cursor animation :( 
+  {
+    "sphamba/smear-cursor.nvim",
+    opts = {},
+  },
+
   -- Highlight windows
   {
     "nvim-zh/colorful-winsep.nvim",
